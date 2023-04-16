@@ -1,0 +1,25 @@
+#basei{
+    width: 98%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+#baseimg{
+    border: 1px solid transparent;
+    width:95%;
+    margin: auto;
+    position: relative;
+}
+
+#img{
+width:100%;
+border-radius: 4%;
+height:200px;
+}
+#icon{
+    position: absolute;
+     top:10px;
+     left: 200px;
+    width:20px;
+    height:20px;
+}

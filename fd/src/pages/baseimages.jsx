@@ -1,4 +1,5 @@
 import React from 'react'
+import "./baseimages.css"
 
 const Baseimages = () => {
     let dataimg =
@@ -21,6 +22,14 @@ const Baseimages = () => {
         id: 4,
         img:`https://picsum.photos/200/300`
         },
+        {
+        id: 5,
+        img:`https://picsum.photos/200/300`
+        },
+        {
+        id: 6,
+        img:`https://picsum.photos/200/300`
+        },
 
     ]
 
@@ -28,17 +37,19 @@ const Baseimages = () => {
       
     <div>
 
-      <div> 
+      <div id="basei"> 
       {dataimg.map(({img}) => {
        return(
-      <div>
-       <img src={img} alt="img" />
-        
+      <div id="baseimg">
+       <img src={img} alt="img"  id="img"/>
+        <img src="https://www.clipartmax.com/png/middle/169-1696957_instagram-icon-instagram-icon-svg-white.png" alt="" id='icon' />
       </div>
 
        )
       })}
- </div>
+          
+      </div>
+        
     </div>
   )
 }

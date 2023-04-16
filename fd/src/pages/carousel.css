@@ -1,0 +1,44 @@
+#sliderbox{
+    border : 1px solid transparent;
+    width:90%;
+    position: relative;
+
+}
+#slidercontainer{
+   margin: auto; 
+   width:70%;
+}
+#imgc{
+    width:100%;
+    height: 250px;
+}
+
+#btnc{
+   background-color: rgb(182, 106, 106); 
+   padding: 10px;
+   color:white;
+   border: none;
+   font-size: 10px;
+   position: absolute;
+   top:200px;
+   left:20px;
+}
+
+#hc{
+    position: absolute;
+    left:5px;
+
+}
+
+#hp{
+    position: relative;
+    left:-81px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 40px;
+    text-decoration: underline;
+    font-size: 10px;
+}
+#arrow{
+border: 1px solid red;
+padding: 50px;
+}
